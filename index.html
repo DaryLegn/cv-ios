@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .modal {
+      display: none;
+    }
+  </style>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/aos.css">
+</head>
+
+<body>
+  <!--FRONT PAGE-->
+  <section class="front-page" id="main">
+    <nav class="navigation">
+      <i class="fab fa-swift fa-3x logo-swift"></i>
+      <div class="desktop-element">
+        <div class="mobile-menu-items">
+          <a href="#main" class="mobile-menu-item">ABOUT</a>
+          <a href="#projects" class="mobile-menu-item">PROJECTS</a>
+          <a href="#callback-form" class="mobile-menu-item">CALLBACK</a>
+          <a href="#contacts" class="mobile-menu-item">CONTACTS</a>
+        </div>
+      </div>
+      <div class="navigation-part">
+        <div class="mobile-element tablet-element">
+          <a href="" class="mobile-menu" id="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="front-page-wrapper">
+      <div class="front-page-main-info">
+        <img src="img/photo.jpeg" alt="photo" class="front-page-my-photo desktop-element">
+        <h1 class="front-page-my-name">[DARIA LEGN]</h1>
+        <h2 class="front-page-my-prof">_IOS DEVELOPER</h2>
+        <p class="front-page-descr">_Full life cycle iOS and macOS application development. Working with AppStore as
+          developer and distribution_
+        </p>
+        <a href="#projects" class="front-page-gallery-button common-button">Projects portfolio-</a>
+      </div>
+
+      <div class="front-page-my-info">
+        <img src="img/photo.jpeg" alt="photo" class="front-page-my-photo mobile-element tablet-element"
+          data-aos="fade-down" data-aos-delay="1000">
+        <div class="front-page-about-me-container" data-aos="fade-right desktop-element" data-aos-delay="500">
+          <br class="front-page-my-description ">About me </br> in 2 minutes</p>
+          <button class="front-page-video-button" id="my-video-btn">
+            <i class="fas fa-play"> PLAY </i>
+          </button>
+        </div>
+      </div>
+      <div class="expirience-wrapper" data-aos="fade-right desktop-element" data-aos-delay="1500">
+        <div class="expirience-container">
+          <h3 class="expirience-title">My Coding Skills & Experience</h3>
+          <div class="expirience-skills">
+
+            <div class="expirience-dots">
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+            </div>
+            <p class="expirience-text">Swift, RxSwift, Obj-C</p>
+          </div>
+          <div class="expirience-skills">
+            <div class="expirience-dots">
+
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+            </div>
+            <p class="expirience-text">Core Data, Realm</p>
+          </div>
+          <div class="expirience-skills">
+            <div class="expirience-dots">
+
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+            </div>
+            <p class="expirience-text">Rest Api</p>
+          </div>
+          <div class="expirience-skills">
+            <div class="expirience-dots">
+
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+            </div>
+            <p class="expirience-text">UIKit, UISwift</p>
+          </div>
+          <div class="expirience-skills">
+            <div class="expirience-dots">
+
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+            </div>
+            <p class="expirience-text">JS, HTML, CSS</p>
+          </div>
+          <div class="expirience-skills">
+            <div class="expirience-dots">
+
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+              <i class="expirience-dots-item far fa-circle"></i>
+            </div>
+            <p class="expirience-text">Good english skills</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="personal-projects" id="projects">
+    <div class="container">
+      <h3 class="section-title personal-projects-title">My projects</h3>
+
+      <div class="personal-project-item">
+        <div class="personal-project-item-container">
+          <div class="projet-item-dot-container">
+            <div class="projet-item-dot"></div>
+            <div class="projet-item-dot"></div>
+            <div class="projet-item-dot"></div>
+          </div>
+          <p><a href="https://apps.apple.com/ua/app/aroma-kava/id1315954014?l=ru"><img src="img/AROMAKAVA.png"
+                alt="Aroma kava" class="personal-project-img" /></a></p>
+        </div>
+        <p class="personal-project-name">
+          <i class="fas fa-laptop-code personal-project-icon"></i>
+          <span>Aroma kava</span>
+        </p>
+        <span class="project-technologies">SWIFT, UIControls, Custom UI elements, RestAPI, OAuth, IOS distribution
+        </span>
+      </div>
+
+      <div class="personal-project-item">
+        <div class="personal-project-item-container">
+          <div class="projet-item-dot-container">
+            <div class="projet-item-dot"></div>
+            <div class="projet-item-dot"></div>
+            <div class="projet-item-dot"></div>
+          </div>
+          <p><a href="https://apps.apple.com/ua/app/protrader/id892072877?l=ru&mt=12"><img src="img/PROTRADER.png"
+                alt="protrader" class="personal-project-img" /></a></p>
+        </div>
+        <p class="personal-project-name">
+          <i class="fas fa-laptop-code personal-project-icon"></i>
+          <span>Protrader</span>
+        </p>
+        <span class="project-technologies">MACoS, Swift, Objective-C, Charts, logical-math part, RestAPI</span>
+      </div>
+
+      <div class="personal-project-item">
+        <div class="personal-project-item-container">
+          <div class="projet-item-dot-container">
+            <div class="projet-item-dot"></div>
+            <div class="projet-item-dot"></div>
+            <div class="projet-item-dot"></div>
+          </div>
+          <p><a href="https://apps.apple.com/us/app/slingstir/id1380827768"><img src="img/SLING.png" alt="Sling Stir"
+                class="personal-project-img" /></a></p>
+        </div>
+        <p class="personal-project-name">
+          <i class="fas fa-laptop-code personal-project-icon"></i>
+          <span>Sling Stir</span>
+        </p>
+        <span class="project-technologies">RXSwift, RXCocoa, Custom UI elements, RestAPI </span>
+      </div>
+    </div>
+  </section>
+  <!--FOOTER SECTION-->
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <div class="footer-main-contact">
+        <div class="footer-my-info">
+          <h3 class="footer-my-name">
+            Daria Legn
+          </h3>
+          <p class="footer-my-proffession">
+            IOS Developer
+          </p>
+        </div>
+        <div class="footer-contacts">
+          <a class="footer-my-phone" href="tel:380957173654">+380957173654</a>
+
+          <a class="footer-my-email" href="mailto:DaryLegn1@gmail.com">DaryLegn1@gmail.com</a>
+        </div>
+      </div>
+      <div class="social-links">
+
+        <a href="https://github.com/DaryLegn"><i class="fab fa-github-square fa-2x  social-links-title"></i></a>
+        <a href="https://www.linkedin.com/in/darya-len-5bb674134/"><i
+            class="fab fa-linkedin fa-2x social-links-title"></i></a>
+        <a href="https://www.facebook.com/dary.len.3"><i
+            class="fab fa-facebook-square fa-2x  social-links-title"></i></a>
+        <a href="https://www.instagram.com/darylegn"><i class="fab fa-instagram fa-2x social-links-title"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!--MODALS SECTION-->
+  <div class="modals-wrapper">
+    <!-- MOBILE MENU -->
+    <div class="modal modal-mobile-menu" id="mobile-menu">
+      <div class="modal-mobile-content">
+        <div class="container mobile-menu-container">
+          <i class="fas fa-times modal-close-btn mobile-menu-close-btn"></i>
+          <nav class="mobile-menu-items">
+            <a href="#main" class="mobile-menu-item">ABOUT</a>
+            <a href="#projects" class="mobile-menu-item">PROJECTS</a>
+            <a href="#callback-form" class="mobile-menu-item">CALLBACK</a>
+            <a href="#contacts" class="mobile-menu-item">CONTACTS</a>
+          </nav>
+
+          <div class="mobile-menu-contacts">
+            <a href="tel:+380505050505" class="mobile-menu-my-tel">+38 (050) 505 05 05</a>
+            <a href="mailto:alexturdev@gmail.com" class="mobile-menu-my-mail">alexturdev@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video -->
+    <div class="modal modal-area-bgd" id="my-video-modal">
+      <div class="my-video-container">
+        <i class="fas fa-times modal-close-btn my-video-close-btn"></i>
+        <video class="my-video-content modal-area-content" src="VIDEO.Mp4" controls></video>
+      </div>
+    </div>
+      <!-- Thank -->
+      <div class="modal modal-area-bgd modal-thanks" id="modal-thanks">
+        <div class="thanks-container">
+            <i class="fas fa-times modal-close-btn thanks-close-btn"></i>
+            <span class="thanks-label">{Thanks}</span>
+            <span class="thanks-recieved">I've received your request/</span>
+            <span class="thanks-contact">I will contact you soon =)</span>
+        </div>
+    </div>
+    </div>
+  </div>
+  <script src="js/modals.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/animation-on-scroll.js"></script>
+  <scrip src="js/callback-form.js"></scrip>
+
+</body>
+
+</html>
